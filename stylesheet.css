@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: aliceblue;
+    background-image: url(https://media.istockphoto.com/vectors/seamless-retro-abstract-shapes-background-vector-id1227598160?b=1&k=20&m=1227598160&s=612x612&w=0&h=4TgcyoImRmzLQKFsYvgrFLHhzS4IbYTHBlvBcyQE2ak=)
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li:hover {
+   padding: 16px;
+   border-bottom: 1px solid rgb(0, 0, 0);
+   background-color: black;
+}
+
+
+
+.navlinks {
+    background-image: url(https://img.freepik.com/premium-vector/neon-game-controllers-joysticks-game-console_32996-1086.jpg?w=2000);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("https://d1wnwqwep8qkqc.cloudfront.net/uploads/stage/stage_image/21476/optimized_large_thumb_stage.jpg");
+    padding: 70px;
+}
+
+.introduction {
+    font-size: large;
+    color: gray;
+    text-align: center
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
+.ourgames {
+    text-align: center;
+    margin: 32px;
+
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black
+    }
+
+    .game {
+        width: 33%;
+        vertical-align: top;
+    }
+}
